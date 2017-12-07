@@ -1,7 +1,8 @@
 body {
   font-family: 'Spectral SC', serif;
-  background: url(https://wallpaperscraft.com/image/room_design_library_shelves_7910_2560x1440.jpg);
+  background: url('https://wallpaperscraft.com/image/room_design_library_shelves_7910_2560x1440.jpg');
   background-size: cover;
+  background-attachment: fixed;
   color:white;
 }
 
@@ -35,7 +36,7 @@ a:hover {
   padding-top:20px;
   border-bottom:1px solid gray;
 }
-.item img {
+.item .newimages {
   width: 128px;
   height: 200px;
   float: right;
@@ -45,7 +46,7 @@ a:hover {
 }
 
 
-#results{
+#results {
   text-align: center;
   margin-top: 50px;
 }
